@@ -1,11 +1,13 @@
 ### Install and Run
 ```
+git clone https://github.com/MargaritaBentov/finra_scrape.git
+cd finra_scrape 
 pip install -r requirements.txt
 ```
 
 To scrape all available links in Finra and save to a .txt file:
 ```
-python maain.py
+python main.py
 ```
 
 Once you have the links text file, to read each link and save to a dataset, run:
