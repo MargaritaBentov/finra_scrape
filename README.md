@@ -1,3 +1,17 @@
+### Install and Run
+```
+pip install -r requirements.txt
+```
+
+To scrape all available links in Finra and save to a .txt file:
+```
+python maain.py
+```
+
+Once you have the links text file, to read each link and save to a dataset, run:
+```
+python data.py
+```
 
 ### Additional links and resources
 
